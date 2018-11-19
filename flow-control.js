@@ -40,5 +40,10 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
-
+  switch(age) {
+    case "happy":
+      return "Dance to Pharrell's 'Happy'"
+    default:
+      return "I don't recognize that mood."
+  }
 }
