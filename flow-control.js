@@ -41,9 +41,9 @@ function ternaryTeenager(age) {
 
 function switchAge(age) {
   switch(age) {
-    case "happy":
-      return "Dance to Pharrell's 'Happy'"
+    case "13-19":
+      return "You are a teenager"
     default:
-      return "I don't recognize that mood."
+      return "You have an age"
   }
 }
